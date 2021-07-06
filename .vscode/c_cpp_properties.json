@@ -3,11 +3,11 @@
         {
             "name": "DKP Aarch64 Windows",
             "includePath": [
-                "C:/devkitPro/devkitA64/aarch64-none-elf/include/**",
-                "C:/devkitPro/devkitA64/lib/gcc/aarch64-none-elf/10.1.0/include/**",
-                "C:/devkitPro/libnx/include/**",
-                "C:/devkitPro/portlibs/switch/include/**",
-                "C:/devkitPro/portlibs/switch/include/freetype2/**",
+                "F:/devkitPro/devkitA64/aarch64-none-elf/include/**",
+                "F:/devkitPro/devkitA64/lib/gcc/aarch64-none-elf/10.1.0/include/**",
+                "F:/devkitPro/libnx/include/**",
+                "F:/devkitPro/portlibs/switch/include/**",
+                "F:/devkitPro/portlibs/switch/include/freetype2/**",
                 "${workspaceFolder}/application/include/**",
                 "${workspaceFolder}/common/include/**",
                 "${workspaceFolder}/application/libs/borealis/library/include/**",
@@ -30,7 +30,7 @@
                 "__SWITCH__",
                 "__aarch64__"
             ],
-            "compilerPath": "C:/devkitPro/devkitA64/bin/aarch64-none-elf-g++",
+            "compilerPath": "F:/devkitPro/devkitA64/bin/aarch64-none-elf-g++",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"
@@ -38,12 +38,12 @@
         {
             "name": "DKP Aarch64 Linux",
             "includePath": [
-                "/opt/devkitpro/devkitA64/aarch64-none-elf/include/**",
-                "/opt/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/10.1.0/include/**",
-                "/opt/devkitpro/libnx/include/**",
-                "/opt/devkitpro/portlibs/switch/include/**",
-                "/opt/devkitpro/portlibs/switch/include/**",
-                "/opt/devkitpro/portlibs/switch/include/freetype2/**",
+                "F:/devkitpro/devkitA64/aarch64-none-elf/include/**",
+                "F:/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/10.2.0/include/**",
+                "F:/devkitpro/libnx/include/**",
+                "F:/devkitpro/portlibs/switch/include/**",
+                "F:/devkitpro/portlibs/switch/include/**",
+                "F:/devkitpro/portlibs/switch/include/freetype2/**",
                 "${workspaceFolder}/application/include/**",
                 "${workspaceFolder}/common/include/**",
                 "${workspaceFolder}/application/libs/borealis/library/include/**",
@@ -65,7 +65,7 @@
                 "__SWITCH__",
                 "__aarch64__"
             ],
-            "compilerPath": "/opt/devkitpro/devkitA64/bin/aarch64-none-elf-g++",
+            "compilerPath": "F:/devkitpro/devkitA64/bin/aarch64-none-elf-g++",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"

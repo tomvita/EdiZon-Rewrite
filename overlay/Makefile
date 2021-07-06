@@ -15,11 +15,11 @@ else
 	APP_VERSION	:=	${VERSION_MAJOR}.${VERSION_MINOR}.${VERSION_MICRO}
 endif
 
-APP_TITLE		:=	EdiZon
+APP_TITLE		:=	EdiZon SE
 APP_AUTHOR		:=	WerWolv
 APP_VERSION		:=	v1.0.0
 
-TARGET			:=	EdiZon
+TARGET			:=	EdiZonSE
 OUTDIR			:=	out
 BUILD			:=	build
 SOURCES_TOP		:=	../common/source source libs/libtesla/source
@@ -65,7 +65,7 @@ LIBDIRS	:= $(PORTLIBS) $(LIBNX)
 ifneq ($(BUILD),$(notdir $(CURDIR)))
 #---------------------------------------------------------------------------------
 
-export OUTPUT	:=	$(CURDIR)/$(OUTDIR)/ovlEdiZon
+export OUTPUT	:=	$(CURDIR)/$(OUTDIR)/ovlEdiZonSE
 export TOPDIR	:=	$(CURDIR)
 
 export VPATH	:=	$(foreach dir,$(SOURCES),$(CURDIR)/$(dir)) \
