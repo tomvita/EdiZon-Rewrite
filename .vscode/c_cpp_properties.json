@@ -39,7 +39,7 @@
             "name": "DKP Aarch64 Linux",
             "includePath": [
                 "F:/devkitpro/devkitA64/aarch64-none-elf/include/**",
-                "F:/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/10.2.0/include/**",
+                "F:/devkitpro/devkitA64/lib/gcc/aarch64-none-elf/11.1.0/include/**",
                 "F:/devkitpro/libnx/include/**",
                 "F:/devkitpro/portlibs/switch/include/**",
                 "F:/devkitpro/portlibs/switch/include/**",
